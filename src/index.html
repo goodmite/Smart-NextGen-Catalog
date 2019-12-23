@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<script>
+		window['UserCountryCultureInfo'] = "pt-PT";
+		var timeZoneOffset = 4;
+		var _lang = "en-US";
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>:: Smart NextGen Catalog ::</title>
+	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<script src="./locale_files/Localization_en-US.js"></script>
+	<script src="mockData.js"></script>
+	<script>
+		var body = { "userName": "chevron.admin@gep.com", "bpc": 70021704, "partnerCode": 0 };
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', 'https://smartdev-sts.gep.com/REST/jwt');
+		xhr.setRequestHeader("Content-Type", "application/json");
+		xhr.send(JSON.stringify(body));
+
+		xhr.onload = () => {
+			var res = JSON.parse(xhr.response);
+			sessionStorage.setItem('JWTToken', res.IssueJWTTokenResult.securityJWTToken);
+		}
+		userInfo.JWTToken = sessionStorage.getItem('JWTToken');
+	</script>
+	<script src="./svg/icons-svg.js"></script>
+	<base href="/">
+</head>
+
+<body>
+	<app-root></app-root>
+</body>
+
+</html>

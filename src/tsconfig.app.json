@@ -1,0 +1,28 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "module": "es2015",
+    "types": [
+      "highcharts"
+    ],
+    "paths": {
+      "@sharedModule/*": [
+        "shared/*"
+      ],
+      "@sharedServices/*": [
+        "core/services/*"
+      ],
+      "@sharedEnums/*": [
+        "src/enums/*"
+      ],
+      "@app/*": [
+        "*"
+      ],
+    },
+  },
+  "exclude": [
+    "src/test.ts",
+    "**/*.spec.ts"
+  ]
+}

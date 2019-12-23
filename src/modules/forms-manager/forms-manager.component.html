@@ -1,0 +1,18 @@
+<div>
+    <div *ngFor="let card of data; trackBy: trackByIndex;" style="width: 100px; height: 100px; background: #d4d4d4; float: left; margin: 5px;
+        text-align: center;">
+        {{card.name}} => {{card.description}}
+    </div>
+    <div style="width: 100px; height: 100px; background: #d6d6d6; float: left; margin: 5px;
+    text-align: center;" (click)="manage()">
+        ADD NEW
+    </div>
+
+    <div>
+        <ng-container #componentContainer></ng-container>
+        <ng-template #componentTemplate let-manifestPath='manifest.path' let-config='manifest.config'>
+            <smart-outlet [path]="manifest.path" [childConfig]="manifest.config" (onInitialize)="onInitialize($event)"
+                (onDeinitialize)="onDeinitialize($event)" (onActivate)="onActivate($event)"></smart-outlet>
+        </ng-template>
+    </div>
+</div>
