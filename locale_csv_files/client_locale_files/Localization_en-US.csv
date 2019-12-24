@@ -1,0 +1,653 @@
+PartitionKey,RowKey,Timestamp,Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_SaveAsTemplate,20/12/2018,Save As Template
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_CostSummary,6/11/2018,Cost Summary
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BasicDetails,6/11/2018,Basic Details
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_DocumentId,6/11/2018,Document Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_Type,6/11/2018,Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_ProductName,6/11/2018,Product Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_BaseQuantity,6/11/2018,Base Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_BaseUOM,6/11/2018,Base UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_Volume,6/11/2018,Volume
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_Category,6/11/2018,Category
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_Region,6/11/2018,Region
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_BusinessUnit,6/11/2018,Business Unit
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_Supplier,6/11/2018,Supplier
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_CurrencyType,6/11/2018,Currency Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_CurrentCost,6/11/2018,Current Cost
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_BD_ShouldCost,6/11/2018,Should Cost
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ProductDetails,8/3/2018,Product Details
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_SEQ,8/3/2018,SEQ
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_Product,8/3/2018,Product
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_UOM,8/3/2018,UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_Quantity,8/3/2018,Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_CostSource,8/3/2018,Cost Source
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_IndexName,8/3/2018,Index Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_Cost,8/3/2018,Cost
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_PD_TotalCost,8/3/2018,Total Cost
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ConversionOtherCosts,8/3/2018,Conversion & Other Costs
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_COC_SEQ,8/3/2018,SEQ
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_COC_CostGroup,8/3/2018,Cost Group
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_COC_CostSource,8/3/2018,Cost Source
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_COC_Value,8/3/2018,Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_TeamMembers,8/3/2018,Team Members
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_TMS_TeamMember,8/3/2018,Team Member
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_TMS_VIEWER,8/3/2018,Viewer
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_TMS_TEAMREVIEWER,8/3/2018,Team Reviewer
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ACT_SendForReview,6/11/2018,Send For Review
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ACT_Cancel,6/11/2018,Cancel
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Lines,02/07/2019,Lines,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Period,02/07/2019,Period,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineDetails,02/07/2019,Line Details,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Accounting,02/07/2019,Accounting,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Cancel,02/07/2019, Cancel
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ACT_SaveAsDraft,6/11/2018,Save As Draft,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_5_OverQuantity_Exception_Definition,30-07-2018,The total invoiced quantity is more than the total receipt/ordered quantity for line(s) or the receipt is missing altogether.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_5_OverQuantity_Exception_Resolution,30-07-2018,"To resolve this exception, manually create the remaining receipt/change order. Alternatively, create an IR such that remaining receipt/change order is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_9_OverUnitPrice_Exception_Definition,30-07-2018,The unit price on the invoice line is more than unit price on the order (after considering tolerance).
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_9_OverUnitPrice_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order for the revised price. Alternatively, create an IR such that a change order with the revised unit price is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_12_OverItemValue_Exception_Definition,30-07-2018,Item Value (Quantity * Unit Price) on Invoice line is more than that on Order.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_12_OverItemValue_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated line item value or have a Super AP user edit the line item value on this invoice & re-trigger matching. Alternatively, create an IR such that a change order with the line item value is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_15_OverItemTotal_Exception_Definition,30-07-2018,Item Total (Sum of all Item Values) across all Invoices is more than that on order (after considering tolerance). It is a header level exception.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_15_OverItemTotal_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated item total or have a Super AP user edit the item total on this invoice & re-trigger matching. Alternatively, create an IR such that a change order with the updated item total is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_18_OverTax_Exception_Definition,30-07-2018,Calculated tax percentage on a line(s) on Invoice is more than that on Order (after considering tolerance).
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_18_OverTax_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated tax or have a Super AP user edit the tax on this invoice & re-trigger matching."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_21_OverShipping_Exception_Definition,30-07-2018,Shipping charges on invoice line is more than that on Order (after considering tolerance).
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_21_OverShipping_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated shipping charges or have a Super AP user edit the shipping charges on this invoice & re-trigger matching."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_24_OverCharges_Exception_Definition,30-07-2018,Other charges on invoice line is more than that on Order (after considering tolerance).
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_24_OverCharges_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated Other charges or have a Super AP user edit the Other charges on this invoice & re-trigger matching."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_27_OverTotalAmount_Exception_Definition,30-07-2018,Total value summed across all invoices is more than that on order (after considering tolerance). It is a header level exception.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_27_OverTotalAmount_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated total amount or have a Super AP user edit the total amount on this invoice & re-trigger matching. Alternatively, create an IR such that a change order with the updated total amount is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_29_UnmatchedUOM_Exception_Definition,30-07-2018,UOM of a line(s) on invoice is different from that on Order.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_29_UnmatchedUOM_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a change order with the updated UOM or update the Invoice/IR with an appropriate Conversion Factor. The matching happens based on the conversion factor and the IR is then sent for acceptance and approval."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_38_NonPOException_Exception_Definition,30-07-2018,This exception is raised when an invoice doesn’t have a corresponding Order tagged to it.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_38_NonPOException_Exception_Resolution,30-07-2018,"To resolve this exception, create an IR. An Order corresponding to this IR is automatically created when the IR is accepted and approved. Alternatively, you can associate an Order to the IR during the IR acceptance and do mapping lines & re-triggering matching. After matching, send the identified exceptions for acceptance. When the IR is accepted and approved, the invoice gets into the Matched status."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_39_ItemMismatch_Exception_Definition,30-07-2018,This invoice line is not available on the order
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_39_ItemMismatch_Exception_Resolution,30-07-2018,This exception is resolved when a user creates an IR where he/she can change the line mapping & re-trigger matching or when a user submits the IR for acceptance directly. Once the IR is accepted & approved by assigned resolver & approver respectively a change order with new line updated on it get created automatically.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_40_Blocked_Exception_Definition,30-07-2018,When supplier is in ‘Blocked’ status then invoices goes in this exception. It is a header level exception.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_40_Blocked_Exception_Resolution,30-07-2018,"To resolve this exception, update the status of the supplier and re-trigger matching."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_42_ApprovalRequiredException_Exception_Definition,30-07-2018,This exception is raised as per the rule setup.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_42_ApprovalRequiredException_Exception_Resolution,30-07-2018,"This exception is automatically resolved when, based on the set rules, the IR is sent and approved by the approver."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_56_MissingReceiptException_Exception_Definition,30-07-2018,The PO line has not been received.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_56_MissingReceiptException_Exception_Resolution,30-07-2018,"To resolve this exception, manually create a receipt for the PO line. Alternatively, create an IR such that a receipt is automatically created when the IR is accepted and approved."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_57_OverQuantityReceipt_Exception_Definition,30-07-2018,The total invoiced quantity on a line is more than the total accepted receipt quantity.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_57_OverQuantityReceipt_Exception_Resolution,30-07-2018,"To resolve this exception, either create a receipt for the remaining quantity or create an IR. The IR, when accepted and approved by the resolver and approver, automatically creates a receipt."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_58_OverQuantityOrder_Exception_Definition,30-07-2018,The total invoiced quantity on a line is more than the ordered quantity (after considering tolerance).
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_58_OverQuantityOrder_Exception_Resolution,30-07-2018,"To resolve this exception, either create a change order with the updated quantity/effort or create an IR. The IR, when accepted and approved, automatically creates the change order with the updated quantity/effort."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_59_DateBlockException_Exception_Definition,30-07-2018,Service End Date on invoice service line is less than Invoice Creation Date.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_59_DateBlockException_Exception_Resolution,30-07-2018,"To resolve this exception, create an IR and have it accepted and approved by the assigned resolver and approver respectively."
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Exception_Definition_Title,30-07-2018,Definition
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Exception_Resolution_Title,30-07-2018,Resolution
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Resolver,30-07-2018,Resolver
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Requester,30-07-2018,Requester
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_HideFilters,30-07-2018,Hide Filters
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShowFilters,30-07-2018,Show Filters
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SHOW_HIDE_OPTIONAL_FIELDS,30-07-2018,Show / Hide Attributes
+0.GEP.Cumulus.P2P.Resources.en-US,COMMENT_UNSAVED_DOC,6/11/2018,You should save the document before adding notes or attachment.,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_SeqNumber,8/3/2018,SEQ
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_CostElement,8/3/2018,Cost Element
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_CostGroup,8/3/2018,Cost Group
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_CostSource,8/3/2018,Cost Source
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_IndexName,8/3/2018,Index Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_UOM,8/3/2018,UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_Value,8/3/2018,Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_Currency,8/3/2018,Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_AD_Formula,8/3/2018,Formula
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ACT_Cancel,6/11/2018,Cancel
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_DM_ACT_Done,6/11/2018,Done
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_BasicDetails,6/11/2018,Should Cost Details
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_closeBtn,6/11/2018,Close
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SupplierServiceConfirmationNumber,6/11/2018,Supplier Service Confirmation Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Description,6/11/2018,Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_OrderNumber,6/11/2018,Order Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_OrderName,6/11/2018,Order Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Currency,6/11/2018,Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SupplierName,6/11/2018,Supplier Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CustomerContact,6/11/2018,Field Supervisor
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CreatedBy,6/11/2018,Created By
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CreatedOn,6/11/2018,Created On
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SubmittedBy,6/11/2018,Submitted By
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SubmittedOn,6/11/2018,Submitted On
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ReceiptName,6/11/2018,Receipt Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SaveAsDraft,6/13/2018,Save
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Submit,6/13/2018,Submit
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_PrintPreview,6/11/2018,Print Preview
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SubmittedSuccessfully,7/7/2018,Service Confirmation Submmited Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_DeleteServiceConfirmation,7/7/2018,Are you sure you want to delete this Service Confirmation?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_DeleteServiceConfirmationMessage,7/7/2018,Service Confirmation Deleted Successfully
+
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Draft,7/7/2018,Draft
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_ApprovalPending,7/7/2018,Approval Pending
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_PartnerAcknowledged,08/13/2019,Partner Acknowledged
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_SentToPartner,08/13/2019,Sent To Partner
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_SentToBuyer,08/13/2019,Sent To Buyer
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Exception,08/13/2019,Exception
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Matched,08/13/2019,Matched
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_MatchedWithTolerance,08/13/2019,Matched With Tolerance
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_ReadyForPayment,08/13/2019,Ready For Payment
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_SentForPayment,08/13/2019,Sent For Payment
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_InvoicePaid,08/13/2019,Invoice Paid
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Cancelled,08/13/2019,Cancelled
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_SentForProcessing,08/13/2019,Sent For Processing
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_InvoicePaymentCancelled,08/13/2019,Invoice Payment Cancelled
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_ErrorStatus,08/13/2019,Error
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_SendForProcessingFailed,08/13/2019,Send For Processing Failed
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_InternallyCancelled,08/13/2019,Internally Cancelled
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Reprocessing,08/13/2019,Reprocessing
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_None,08/13/2019,None
+
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_No,7/7/2018,NO
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Yes,7/7/2018,YES
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Ok,7/7/2018,OK
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceRematchError,7/7/2018,Invoice Rematch Error
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_InvoiceRematchedSucessfully,7/7/2018,Invoice Rematched Sucessfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Invoice_IRisinprogressforinvoice,7/7/2018,An IR is already in progress for this invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_UnableToCreateIR,7/7/2018,Unable to cretae IR
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_ErrorOccuredWhileCancelInvoice,7/7/2018,Error occured while Cancelling Invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_InvoiceCancellationInProgress,7/7/2018,Cancellation in progress. Please review the document after some time.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_InvoiceCancelledSuccessfully,7/7/2018,The invoice is cancelled
+0.GEP.Cumulus.Reports.Web.Resources.en-US,COMMENT_DELETE,7/9/2018,The comment will be deleted permanently.Do you want to continue?
+0.GEP.Cumulus.Reports.Web.Resources.en-US,ATTACHMENT_DELETE,7/9/2018,The attachments will be deleted permanently. Do you want to continue?
+0.GEP.Cumulus.Reports.Web.Resources.en-US,COMMON_MsgYES,7/9/2018,YES
+0.GEP.Cumulus.Reports.Web.Resources.en-US,COMMON_MsgNO,7/9/2018,NO
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SavedSuccessfully,7/9/2018,Service Confirmation Saved Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Approve,7/11/2018,Approve
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Reject,7/11/2018,Reject
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ApprovedSuccessfully,7/11/2018,Service Confirmation Approved Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_RejectedSuccessfully,7/11/2018,Service Confirmation Rejected Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_OrderLineNumber,7/23/2018,Order Line Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Description,7/23/2018,Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_LineType,7/23/2018,Line Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ContractNumber,7/23/2018,Contract Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Quantity,7/23/2018,Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Effort,7/23/2018,Effort
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_LineValue,7/23/2018,Line Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Price,7/23/2018,Price
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_UOM,7/23/2018,UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_StartDate,7/23/2018,Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_EndDate,7/23/2018,End Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Task_Description,7/23/2018,Task Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Type,7/23/2018,Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Category,7/23/2018,Category
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Cancel,7/23/2018,Discard
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Add,7/23/2018,Add Selected Subline(s)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Plant,7/27/2018,Plant
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Division,7/27/2018,Division
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Business_Unit,7/27/2018,Business Unit
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Purchasing_Org,7/27/2018,Purchasing Org
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Company_code,7/27/2018,Company Code
+0.GEP.Cumulus.P2P.Resources.en-US,Description,7/23/2018,Description
+0.GEP.Cumulus.P2P.Resources.en-US,LineType,7/23/2018,Line Type
+0.GEP.Cumulus.P2P.Resources.en-US,ContractNumber,7/23/2018,Contract Number
+0.GEP.Cumulus.P2P.Resources.en-US,Quantity,7/23/2018,Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,Effort,7/23/2018,Effort
+0.GEP.Cumulus.P2P.Resources.en-US,LineValue,7/23/2018,Line Value
+0.GEP.Cumulus.P2P.Resources.en-US,Price,7/23/2018,Price
+0.GEP.Cumulus.P2P.Resources.en-US,UOM,7/23/2018,UOM
+0.GEP.Cumulus.P2P.Resources.en-US,StartDate,7/23/2018,Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,EndDate,7/23/2018,Completion Date
+0.GEP.Cumulus.P2P.Resources.en-US,Description,7/23/2018,Description
+0.GEP.Cumulus.P2P.Resources.en-US,Type,7/23/2018,Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Branch_Plant,7/31/2018,Branch Plant
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SaveSCFailure,8/3/2018,Error While Saving Service Confirmation
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SubmitSCFailure,8/3/2018,Error While Submitting Service Confirmation
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ServiceConfirmationName,8/3/2018,Service Confirmation Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CannotDeleteLastItem,8/3/2018,Cannot Delete The Last Line Item
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_PrintServiceConfirmation,7/08/2018,Print Service Confirmation
+0.GEP.Cumulus.P2P.Resources.en-US,checked,8/3/2018,
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_INPROCESS,8/20/2018,Upload in progress..
+.GEP.Cumulus.P2P.Web.Resources.en-US,ATTACHMENT_UPLOAD,8/20/2018,UPLOAD DOCUMENTS
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_INVALIDSIZE,8/20/2018,The uploaded file exceeds the file size (max #MaxSize).
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_MAXFILENO,8/20/2018,Maximum #MaxFileNo files can be uploaded at a time.
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_FAILED,8/20/2018,File failed to upload.
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_INVALIDFORMAT,8/20/2018,The uploaded file is not in expected format.
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_UPLOAD_RULE_LINE1,8/20/2018,Supported file formats:
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_UPLOAD_RULE_LINE2,8/20/2018,Limited to file(s) of #MaxSize each.
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Approved,7/7/2018,Approved
+0.GEP.Cumulus.P2P.Resources.en-US,Contracted_lines,7/7/2018,Contracted Lines
+0.GEP.Cumulus.P2P.Resources.en-US,TaskNo,8/17/2018, Subline Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_DeleteChildLines,8/20/2018,Are you sure you want to delete the selected line(s)?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_DeleteParentLines,8/20/2018,Are you sure you want to delete the selected line(s)?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_LineDetails,8/3/2018,Line Details
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Lines,8/3/2018,Lines
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Accounting,8/3/2018,Accounting
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Line,8/3/2018,Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_UnitPrice,8/3/2018,Unit Price
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_NeedByDate,8/3/2018,Need By Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Ordered,8/3/2018,Ordered
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Approved,8/3/2018,Approved
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Remaining,8/3/2018,Remaining
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Split,8/3/2018,Split
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SplitNumber,8/3/2018,Split Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SplitValue,8/3/2018,Split Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Requester,8/3/2018,Requester
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Division,8/3/2018,Division
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Company code,8/3/2018,Company code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Plant code,8/3/2018,Plant code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Purchasing Org,8/3/2018,Purchasing Org
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Plant,8/3/2018,Purchasing Plant
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Business Unit,8/3/2018,Business Unit
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Purchasing Group,8/3/2018,Purchasing Group
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Item Category,8/3/2018,Item Category
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Storage Location,8/3/2018,Storage Location
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Account Assignment Category,8/3/2018,Account Assignment Category
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_GL Account,8/3/2018,GL Account
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Cost Center,8/3/2018,Cost Center
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_WBS Element,8/3/2018,WBS Element
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Internal Order,8/3/2018,Internal Order
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Fixed,8/3/2018,Fixed
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Material,8/3/2018,Material
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_NoSublineSelected,8/21/2018,No subline(s) selected
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_AddNewTask,8/21/2018,Add New Subline
+0.GEP.Cumulus.P2P.Resources.en-US,Tasks,8/21/2018,Add Sublines
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_AddAdhocApprover,8/23/2018,Add Adhoc Approver
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CreateInvoice,8/23/2018,Create Invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Withdraw,8/23/2018,Withdraw
+0.GEP.Cumulus.P2P.Resources.en-US,loadingMsg,8/23/2018,Loading..
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_WithdrawnSuccessfully,8/28/2018,Service Confirmation Withdrawn Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Reset,8/3/2018,Reset
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Split,8/3/2018,Split
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_NumberField,8/3/2018,Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_closeBtn,8/3/2018,Close
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DONEBTN,8/3/2018,Done
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_categoryPopupHeader,9/26/2018,Select Categories to Browse
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Apply,8/3/2018,Apply
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Total,8/3/2018,Total
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SelectChildLines,8/28/2018,Select at least one row
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Rejected,8/28/2018,Rejected
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PercentageField,8/31/2018,Percentage
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_QuantityDoesNotTally,8/31/2018,Quantity Does Not Tally
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ZeroSplitsNotAllowed,8/31/2018,Zero Splits Not Allowed
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Amount,8/31/2018,Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Upload_AmountNotTally,8/31/2018,Amount Not Tally
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PercentageDoesNotTally,8/31/2018,Total Percentage does not tally
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Req_PercentageField,8/31/2018,Percentage
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Req_NumberField,8/31/2018,Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Split_WarningChange,8/31/2018,This will replace the data of the existing splits. Do you wish to continue?
+0.GEP.Cumulus.P2P.Resources.en-US,CMN_Withdrawn,8/30/2018,Withdrawn
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Add,8/31/2018,Add
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_View,8/31/2018,View
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Comment,8/31/2018,Comment
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Add,8/31/2018,Add
+0.GEP.Cumulus.P2P.Resources.en-US,PLATFORM_RowsPerPage,8/31/2018,Rows Per Page
+0.GEP.Cumulus.P2P.Resources.en-US,PLATFORM_Of,8/31/2018,Of
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Comment,8/31/2018,Comment
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_View,8/31/2018,View
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_BU.OBJ.SUB,8/31/2018,BU.OBJ.SUB
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Branch Plant,8/31/2018,Branch Plant
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_NoLines,8/31/2018,No matching search result found
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_AddSubline,9/11/2018,Price entered on the line will be cleared if you continue to add sublines. Do you want to continue?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ContractedLines,9/21/2018,Contracted Line
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_FieldShouldNotBeBlank,9/24/2018,field should not be blank
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SavedSuccessfully,9/24/2018,Service Confirmation Saved Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SupplierCode,9/25/2018,Supplier Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_StartDate,10/01/2018,Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ConsumedDate,10/01/2018,Consumed Date
+0.GEP.Cumulus.P2P.Resources.en-US,ConsumedDate,10/01/2018,Consumed Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_CompletionDate,10/01/2018,Completion Date
+0.GEP.Cumulus.P2P.Resources.en-US,CompletionDate,10/02/2018,Completion Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_InvalidStartCompletionDate,10/02/2018,Invalid Start Date and Completion Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_StartCurrentDate,10/02/2018,cannot be after the current date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ContractExpiry,10/02/2018, cannot be after the Contract Expiry Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_BeforeContractExpiry,10/02/2018, cannot be before the Contract Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ServiceLocation,9/28/2018,Service Location
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ServiceAddress,9/28/2018,Service Location Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_SupplierInvoicingStatus,10/3/2018,Invoicing Status
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_BuyerInvoicingStatus,10/3/2018,Invoicing Status
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ConsumedDate,10/4/2018,Consumed Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_CompletionDate,10/4/2018,Completion Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_TotalAmountGreaterThanZero,10/6/2018,Service Confirmation total amount cannot be zero
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_AmountBasedService,10/8/2018,Amount Based Service
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_RateBasedService,10/8/2018,Rate Based Service
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Material,10/8/2018,Material
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ErrorInAccounting,10/8/2018,Mandatory fields are missing in Accounting Section
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_ErrorLineItemsData,10/8/2018,Mandatory fields are missing in Line Sections
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_MandatoryFieldError,10/8/2018,Mandatory fields should not be blank.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_PrintPreviewMode,10/22/2018,Preview Mode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_SC_Back,10/22/2018,Back
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_BASICDETAILS,02/07/2019,BASIC DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AnalyticsCard,02/07/2019,ANALYTICS CARD
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShippingFreight,02/07/2019,Shipping & Freight
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceValue,02/07/2019,Invoice Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxesAndCharges,02/07/2019,Taxes & Charges
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Material,02/07/2019,Material,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_VariableService,02/07/2019,Variable,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_FixedService,02/07/2019,Fixed
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalLabel,02/07/2019,Invoice Total
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERDETAILS,02/07/2019,SUPPLIER DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_STAKEHOLDERDETAILS,02/07/2019,STAKEHOLDER DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PAYMENTANDDELIVERYDETAILS,02/07/2019,PAYMENT AND DELIVERY DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AddMultipleLines,02/07/2019,Add Multiple Lines
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_INVOICENAME,02/07/2019,Invoice Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_INVOICENUMBER,02/07/2019,Invoice Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_INVOICEAMOUNT,02/07/2019,Invoice Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PotentialDuplicateInvoices,12/27/2018,Potential Duplicate Invoices
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERINVOICENUMBER,02/07/2019,Supplier Invoice Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_CREATIONDATE,02/07/2019,Invoice Creation Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERINVOICEDATE,02/07/2019,Supplier Invoice Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_INVOICERECEIVEDON,02/07/2019,Invoice Received On
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERNAME,02/07/2019,Supplier Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DuplicateLine,02/07/2019,Duplicate Line
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ManageColumn,02/07/2019,Manage Column
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Action,02/07/2019,Action
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_NONPO,02/07/2019,NON PO Invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceStatus,11/28/2018,Invoice Status
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DuplicateCheckResult,11/28/2018,Duplicate Check Result
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ORDERNUMBER,02/07/2019,Order Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ORDERNAME,02/07/2019,Order Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERCODE,02/07/2019,Supplier Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_CURRENCY,02/07/2019,Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PURCHASETYPE,02/07/2019,Purchase Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ERS,02/07/2019,ERS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ORDERINGLOCATION,02/07/2019,Order Location
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ORDERSUPPLIERNAME&ADDRESS,02/07/2019,Order Supplier Name & Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_REMITTOLOCATION,02/07/2019,Remit To Location
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERNAME&ADDRESS,02/07/2019,Supplier Name & Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERCONTACT,02/07/2019,Supplier Contact
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SUPPLIERCONTACTEMAILPHONE,02/07/2019,Supplier E-mail/Phone
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ORDERCONTACT,02/07/2019,Order Contact
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_BUYEREMAILPHONE,02/07/2019,Buyer E-mail/Phone
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SHIPTO,02/07/2019,Ship To/Service To
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShipFromLocation,02/07/2019,Ship From
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShipFromLocationAddress,02/07/2019,Ship From Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SHIPTOADDRESS,02/07/2019,Ship To Address/ Service Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_CONTACTEMAILPHONE,02/07/2019,Contact E-mail / phone
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceSourceChange,02/07/2019,This change will erase all entered values and reset all fields/attributes. Do you want to proceed with the change?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderNumberChange,02/07/2019,Changing Order Number will remove line items currently present on the invoice. Do you want to proceed with this change?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_REMITTANCEDETAILS,02/07/2019,REMITTANCE DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PAYMENTDATE,02/07/2019,Payment Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_REFERENCENUMBER,02/07/2019,Reference Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_REMITTANCEID,02/07/2019,Remittance ID
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_METHOD,02/07/2019,Method
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SupplierName,02/07/2019,Supplier Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Business Unit,02/07/2019,Business Unit
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Company code,02/07/2019,Company Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Purchasing Org,02/07/2019,Purchasing Org
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Purchasing Group,02/07/2019,Purchasing Group
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LINEDETAILS,02/07/2019,LINE DETAILS
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LINES,02/07/2019,LINES
+
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LINE,02/07/2019,Line
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemNumber,02/07/2019,Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_FieldSupervisor,02/07/2019,Field Supervisor
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_FulfilmentDocumentLineNumber,02/07/2019,Fulfilment Document Line Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_FulfilmentDocumentNumber,02/07/2019,Fulfiment Document Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineNo,04/11/2019,Line
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineType,02/07/2019,Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemNumber,02/07/2019,Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PartnerItemName,02/07/2019,Line Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PartnerItemNumber,02/07/2019,Supplier Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_POLineItemNumber,4/28/2019,PO Line Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Category,02/07/2019,Category
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_UnitPrice,02/07/2019,Unit Price
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Quantity,02/07/2019,Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_UOM,6/5/2016,UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_MatchType,02/07/2019,Match Type,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_StartDate,02/07/2019,Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_EndDate,02/07/2019,End Date,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineTotal,02/07/2019,Line Total,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Taxes,02/07/2019,Taxes,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Allowances,02/07/2019,Discounts,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AccrueTaxes,02/07/2019,Accrued Taxes
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderedQuantity,02/07/2019,Ordered Quantity,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderUnitPrice,02/07/2019,Ordered Unit Price,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_RemainingAmount,02/07/2019,Remaining Amount,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicesAmount,02/07/2019,Total Invoices Amount,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShipTo,02/07/2019,Ship To,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShipToAddress,02/07/2019,Ship To Address,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContractNumber,10-03-2017,Contract Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContractName,02/07/2019,Contract Name,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_CalculatedTaxes,02/07/2019,Calculated Tax,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContractExpiryDate,02/07/2019,Contract Expiry Date,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContractValue,02/07/2019,Contract Value,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DeliverToAddress,02/07/2019,Deliver To Address,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Manufacturer_Details,02/07/2019,Manufacturer Details,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_CommentsAndAttachments,02/07/2019,Comments And Attachments,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AdditionalInformation,02/07/2019,Additional Information,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DeliverTo,4/28/2019,Deliver To
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PaymentTerms,02/07/2019,Payment Terms,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_FulfilmentDocumentStatus,02/07/2019,Fulfilment Document Status,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_IsContracted,02/07/2019,Is item on Pricebook?,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PriceBookStatus,02/07/2019,Is Item Price Compliant,
+
+
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PAYMENTTERMS,02/07/2019,Payment Terms,
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_PO_ConsumedDate,02/07/2019,Consumed Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_PO_NeedByDate,02/07/2019,Need By Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_PO_StartDate,02/07/2019,Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PurchaseTypeChange,02/07/2019,Changing Purchase Type will remove the fields/attributes which are not relevant to the new Purchase Type selected. Do you want to proceed with the change?
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_EXCEPTIONTYPE,02/07/2019,EXCEPTION TYPE
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SplitAccountingDescription,04/11/2019,Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineItemSplitNumber,04/11/2019,Split
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalSplitValue,04/11/2019,Total Split Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SplitValue,04/11/2019,Split Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Requester,04/11/2019,Requester
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_GLCode,04/11/2019,GL Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_Amount,02/15/2019,Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Percentage,02/15/2019,Percentage
+0.GEP.Cumulus.P2P.Resources.en-US,TrackStatus,7/08/2018,Track Status
+0.GEP.Cumulus.P2P.Resources.en-US,Delete,7/08/2018,Delete
+0.GEP.Cumulus.P2P.Resources.en-US,ExportToPDF,7/08/2018,Export To PDF
+0.GEP.Cumulus.P2P.Resources.en-US,PrintInvoice,6/5/2016,Print Invoice 
+0.GEP.Cumulus.P2P.Resources.en-US,PrintPreview,6/5/2016,Print Preview
+0.GEP.Cumulus.P2P.Resources.en-US,UploadImage,6/5/2016,Upload Image
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SaveAsDraft,6/5/2016,Save As Draft
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SavedSuccess,6/5/2016,Invoice Saved Successfully
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SavedError,6/5/2016,Error occurred while saving Invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SendForProcessing,6/5/2016,Send For Processing
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_RetriggerMatching,7/24/17,RE-TRIGGER MATCHING 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PreviewMode,7/24/17,Preview Mode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Edit,7/24/17,Edit 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_DeletedSuccessfully,6/5/2016,Invoice deleted successfully 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceDeletedError,6/5/2016,An internal error occurred while deleting invoice. Contact the helpdesk. 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_ConfirmDeleteInvoice,6/5/2016,Do you want to delete this Invoice? 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SHIPTOORSERVICETO,4/28/2019,Ship To/Service To
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SHIPTOADDRESSORSERVICEADDRESS,4/28/2019,Ship To Address/ Service Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_BILLTO,4/28/2019,Bill To
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_BILLTOADDRESS,4/28/2019,Bill To Address
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_MarkAsNewItem,4/28/2019,Mark As New Item
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContactEmailOrPhone,4/28/2019,Contact Email / phone
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InterfaceStatus,4/28/2019,Interface Status
+0.GEP.Cumulus.P2P.Resources.en-US,ATTACHMENT_UPLOAD,7/24/17,UPLOAD DOCUMENTS
+0.GEP.Cumulus.P2P.Resources.en-US,attachments,7/24/17,Attachments
+0.GEP.Cumulus.P2P.Resources.en-US,browsernotsupport,7/24/17,File Drag/Drop is not supported for this browser
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_InvoiceSentBacktoPartnerInProgress,10/04/2019,Return to Supplier in progress. Please review the document after some time.
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_InvoiceSentBacktoPartnerSuccessfully,6/5/2016,Invoice Returned to Supplier Successfully 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_ErrorOccuredWhileSendingInvoicetoPartner,6/5/2016,Error occured while sending Invoice to Supplier 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Inv_CannotCancelInvoice,6/5/2016,You can't cancel this invoice as it is sent for payment 
+0.GEP.Cumulus.P2P.Resources.en-US,SendForProcessing,6/5/2016,Send For Processing
+0.GEP.Cumulus.P2P.Resources.en-US,CreateCreditMemo,1/17/2018,Create Credit Memo 
+0.GEP.Cumulus.P2P.Resources.en-US,CopyInvoice,1/17/2018,Copy Invoice 
+0.GEP.Cumulus.P2P.Resources.en-US,SendToBuyer,6/5/2016,Send To Buyer 
+0.GEP.Cumulus.P2P.Resources.en-US,ReSendForPayment,12/4/2017,Resend For Payment
+0.GEP.Cumulus.P2P.Resources.en-US,SendForPayment,6/5/2016,Send For Payment 
+0.GEP.Cumulus.P2P.Resources.en-US,ReturnToSupplier,6/5/2016,Return To Supplier 
+0.GEP.Cumulus.P2P.Resources.en-US,InvoiceReconciliation,6/5/2016,Invoice Reconciliation 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Line,6/5/2016,line
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AdminZoneLevel,17/5/2019,Admin Zone Level
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AuthorityName,17/5/2019,Authority Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ERPTaxCode,17/5/2019,ERP Tax Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxRate,17/5/2019,Tax Rate
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxBase,17/5/2019,Tax Base
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxAmount,17/5/2019,Tax Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_State,17/5/2019,State
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_County,17/5/2019,County
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_City,17/5/2019,City
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PostCode,17/5/2019,PostCode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_GeoCode,17/5/2019,GeoCode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Country,17/5/2019,Country
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_COMMON_ADD,17/5/2019,Add
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TAXESEXIST,17/6/2019,Selected Taxes Already Exists
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ERRORLIST,17/6/2019,Errors
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineNumber,17/6/2019,Line Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvalidNeedByDate,04-05-2016,Please provide valid need by date for item(s)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Item,10-03-2017,Item
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Items,09-11-2013,Items
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ReceivedQuantity,10-03-2017,Received Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AcceptedValue,10-03-2017,Accepted Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedQuantity,9/13/2013,Invoiced Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedQuantity,9/13/2013,Total Invoiced Quantity
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Tolerance,9/13/2013,Tolerance
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderedUnitCostOrRateUSD,10-03-2017,Ordered Unit Cost / Rate(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedUnitCostOrRateUSD,10-03-2017,Invoiced Unit Cost / Rate(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemType,08-01-2014,Item Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_QuantityOrEfforts,10-12-2013,Quantity/Efforts
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_UnitCostOrRateUSD,10-03-2017,Unit Cost / Rate (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemValueUSD,10-03-2017,Item Value (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderedItemValueUSD,10-03-2017,Ordered Item Value(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedItemValueUSD,10-03-2017,Invoiced Item Value(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedItemValueUSD,10-03-2017,Total Invoiced Item Value(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderShippingUSD,10-03-2017,Order Shipping(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedShippingUSD,10-03-2017,Invoiced Shipping (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedShippingUSD,10-03-2017,Total Invoiced Shipping (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderChargesUSD,10-03-2017,Order Charges (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedChargesUSD,10-03-2017,Invoiced Charges (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedChargesUSD,10-03-2017,Total Invoiced Charges (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemMatchingType,09-11-2013,Item Matching Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemTotal,09-11-2013,Item Total
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_POLineNumber,10-02-2016,PO Line number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LineNumbers,7/22/2015,Line Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ItemNumber,7/22/2015,Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SupplierItemNumber,10-03-2017,Supplier Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedShipping,9/13/2013,Total Invoiced Shipping
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ExceptionComments,09-11-2013,Exception Comments
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OverrideException,04-09-2015,Override Exception
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderNumber,09-11-2013,Order Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderAmount,10-03-2017,Order Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderStatus,09-11-2013,Order Status
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_POOrderContact,09-11-2013,PO - Order Contact
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceOrderContact,09-11-2013,Invoice - Order Contact
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderCurrency,10-03-2017,Order Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceCurrency,10-03-2017,Invoice Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderedTaxUSD,10-03-2017,Ordered Tax(CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedTaxUSD,10-03-2017,Invoiced Tax (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoicedExternalTaxUSD,20-11-2018,Calculated Tax (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedTaxUSD,10-03-2017,Total Invoiced Tax (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_UseTaxUSD,10-03-2017,Use Tax (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AmountFor,9/13/2013,Amount for
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InOrderUSD,10-03-2017,In Order (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InInvoiceUSD,10-03-2017,In Invoice (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TotalInvoicedUSD,10-03-2017,Total Invoiced (CUR)
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderedUOM,10-03-2017,Ordered UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ReceivedUOM,10-03-2017,Received UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceUOM,10-03-2017,Invoice UOM
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SupplierName,10-03-2017,Supplier Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PartnerStatus,04-06-2016,Partner Status
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceAdvanceAmount,4/15/2016,Invoice Advance Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderAdvanceAmount,4/15/2016,Order Advance Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AvailableAdvanceAmount,4/15/2016,Available Advance Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceAmount,10-03-2017,Invoice Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_OrderAmount,10-03-2017,Order Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AdjustmentTotal,10-03-2017,AdjustmentTotal
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AdvanceTotal,10-03-2017,AdvanceTotal
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PaymentDate,10-05-2017,Payment Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ReferenceNumber,10-05-2017,Reference Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_RemittanceID,10-05-2017,Remittance ID
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Method,10-05-2017,Method
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Currency,10-05-2017,Currency
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Amount,10-05-2017,Amount
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Send,10-06-2017,Send
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ENTERVALUEERROR,10-06-2017,Please enter new value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_RECEIVEDVALUE,10-06-2017,Received Value
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_HEADERERRORMESSAGE,10-06-2017,This is service based Invoice with an intended fulfillment of Service Confirmation. Please add service lines and link them back to PO lines to proceed the submission
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ScannedImage,07/10/2019,SCANNED DOCUMENT
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_COMMON_CANCEL,09-11-2013,CANCEL
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_COMMON_DONE,09-11-2013,DONE
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Common_EditMultipleSplits,9/14/2017,Edit Multiple Splits
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Common_SelectLines,7/14/2017,SELECT LINES
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Common_All,7/14/2017,All
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ManufacturerName,7/14/2017,Manufacturer Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ManufacturerItemNumber,7/14/2017,Manufacturer Item Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ManufacturerModelNumber,7/14/2017,Manufacturer Model Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TimeSheetNumber,7/14/2017,Timesheet Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PriceType,7/14/2017,Price Type
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_JobTitle,7/14/2017,Job Title
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_MarkupPercent,7/14/2017,Margin
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_BaseRate,7/14/2017,Pay Rate
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ReportingManager,7/14/2017,Reporting Manager
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TimeSheet,7/14/2017,Timesheet
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContingentWorkerName,7/14/2017,Contingent Worker Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ZeroSplitsNotAllowed,7/14/2017,Split line value cannot be 0.00
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ChangeImage,7/14/2017,Change Image
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_PopOut,7/14/2017,Pop Out
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_MandatoryFieldsMissingInLineSection,7/14/2017,Mandatory fields are missing in line section
+0.GEP.Cumulus.P2P.Resources.en-US,PLATFORM_ThisFieldShouldBeNumber,6/13/2018,This field should be a number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_Common_Ok,6/13/2018,Ok
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_MULTIPO,08/13/2019,Multi PO Invoice
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DELIVERTO,08/13/2019,Deliver To 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_DeliverToAddress,08/13/2019,Deliver To Address 
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ShouldNotBeBlank,08/13/2019,should not be left blank
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SaveForFutureReference,08/13/2019,Save location for future reference
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_EnterValidZipCode,08/13/2019,Please enter a valid zipcode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LocationName,08/13/2019,Location Name
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_LocationCode,08/13/2019,Location Code
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AddressLine1,08/13/2019,Address Line 1
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AddressLine2,08/13/2019,Address Line 2
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_Zip,08/13/2019,ZipCode
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_ContactPerson,08/13/2019,Contact Person
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TelephoneNumber,08/13/2019,Telephone Number
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_AddNewShiptoLocation,08/13/2019,Add New Ship to Location
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_CMN_InterfaceStatus,08/13/2019,Interface Status
+0.GEP.Cumulus.P2P.Resources.en-US,QueuedForERPProcessing,12/5/2017,Queued for ERP Processing
+0.GEP.Cumulus.P2P.Resources.en-US,SendingToERPInProgress,12/5/2017,Sending to ERP in Progress
+0.GEP.Cumulus.P2P.Resources.en-US,SentToERP,12/5/2017,Sent to ERP
+0.GEP.Cumulus.P2P.Resources.en-US,AcceptedByERP,12/5/2017,Accepted by ERP
+0.GEP.Cumulus.P2P.Resources.en-US,RejectedByERP,12/5/2017,Rejected by ERP
+0.GEP.Cumulus.P2P.Resources.en-US,CancelledByERP,12/5/2017,Cancelled by ERP
+0.GEP.Cumulus.P2P.Resources.en-US,CancellationFailed,12/5/2017,Cancellation Failed
+0.GEP.Cumulus.P2P.Resources.en-US,SendingToERPFailed,12/5/2017,Sending to ERP Failed
+0.GEP.Cumulus.P2P.Resources.en-US,CancellationToERPInProgress,12/5/2017,Cancellation to ERP in Progress
+0.GEP.Cumulus.P2P.Resources.en-US,PickedUpForProcessing,12/5/2017,Picked up for Processing
+0.GEP.Cumulus.P2P.Resources.en-US,UpdatedPickedUpForProcessing,12/5/2017,Updated Picked up for Processing
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_enter_value,12/5/2017,You must enter a value for the attribute
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_InvoiceTotal,/9/2019,Invoice Total
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_SupplierICard_CompanyProfile,12/5/2017,Company Profile
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_SupplierICard_360Dashboard,12/5/2017,360 Dashboard
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_SupplierICard_PhoneNumber,12/5/2017,Ph
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_HeadquarterLocation,12/5/2017,Headquarter Location (Country)
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_SupplierVatNumber,12/5/2017,Supplier VAT Number
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_SupplierProfileStatus,12/5/2017,Supplier Profile Status
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_PreferredSupplier,12/5/2017,Supplier Preferred Supplier
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_OwnedBy,12/5/2017,Owned By
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_DoingBusinessAs,12/5/2017,Doing Business As
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_SupplierCode,12/5/2017,Supplier Code
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_DUNSNumber,12/5/2017,DUNS Number
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_PrimaryContactName,12/5/2017,Primary Contact Name
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Category,12/5/2017,Category
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Region,12/5/2017,Region
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_BusinessType,12/5/2017,Business Type
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_SourceType,12/5/2017,Source type
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_RelationshipType,12/5/2017,Relationship Type
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_DiversityStatus,12/5/2017,Diversity Status
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_SupplierRiskType,12/5/2017,Supplier Risk Type
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_ContactEmailID,12/5/2017,Contact Email ID
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Diversity,12/5/2017,Diversity
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_CompanyFax,12/5/2017,Fax
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_Close,12/5/2017,Close
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Close,12/5/2017,Close
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_SupplierICard_Comments,12/5/2017,Comments
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Contract,12/5/2017,Contract
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_PO,12/5/2017,Purchase Order
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_ScoreCard,12/5/2017,Scorecard
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_RFX,12/5/2017,RFX
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_Auction,12/5/2017,Auction
+0.GEP.Cumulus.P2P.Resources.en-US,Platform_SupplierICard_Status,12/5/2017,Status
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_popupComplianceStatus,12/5/2017,Compliance Status
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_ComplianceForm,12/5/2017,Form Name
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_CompliancePeriod,12/5/2017,Response Validity Period 
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_ComplianceStatus,12/5/2017,Status
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICard_ComplianceExpiresOn,12/5/2017,Expires On
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_Invited,12/5/2017,Response pending
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_Submitted,12/5/2017,Compliant
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_Accepted,12/5/2017,Accepted
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_ApprovalPending,12/5/2017,Pending for approval
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_Approved,12/5/2017,Compliant
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_Rejected,12/5/2017,Non-Compliant
+0.GEP.Cumulus.P2P.Resources.en-US,SupplierICardCompliantStatus_InvitationExpired,12/5/2017,Non-Compliant
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxBaseDetails,12/5/2017,Tax Base Details
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_TaxDescription,12/5/2017,Tax Description
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_StartDateShouldNotLessThanCurrentDate,12/5/2017,Please enter a valid Date. Start Date Should not be less than End Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_EndDateShouldNotLessThanStartDate,12/5/2017,Please enter a valid Date. End Date Should not be less than Start Date
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_SelectShipServiceToToProceed,12/5/2017,Select Ship/Service To to proceed
+0.GEP.Cumulus.P2P.Resources.en-US,P2P_INV_EditMultipleSplits,12/5/2017,Edit Multiple Splits
+0.GEP.Cumulus.Reports.P2P.Resources.en-US,P2P_INV_Prorate,28/08/2019,Prorate
+
