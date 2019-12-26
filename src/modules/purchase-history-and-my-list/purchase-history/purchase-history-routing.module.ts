@@ -2,8 +2,11 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 
-import { PurchaseHistoryComponent } from "./purchase-history.component";
 import { SmartInjectorModule, IManifestCollection } from 'smart-module-injector';
+
+import { PurchaseHistoryComponent } from "./purchase-history.component";
+import { PurchaseHistoryService } from './purchase-history.service';
+
 
 const purchaseHistoryManifest: IManifestCollection = [{
   path: 'index', component: PurchaseHistoryComponent
@@ -16,7 +19,7 @@ const purchaseHistoryManifest: IManifestCollection = [{
     SmartInjectorModule.forChild(purchaseHistoryManifest)
   ],
   declarations: [PurchaseHistoryComponent],
-  providers: [],
+  providers: [PurchaseHistoryService],
   entryComponents: []
 })
 export class PurchaseHistoryRoutingModule {

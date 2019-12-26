@@ -12,11 +12,17 @@ import { BaseInterceptService, BaseService, ConsoleLoggerService, LandingPageSer
 export const coreManifest: IManifestCollection = [
 	{ path: 'categoriesManager', loadChildren: '../modules/categories-manager/categories-manager-routing.module#CategoriesManagerRoutingModule' },
 	{ path: 'categoryPopup', loadChildren: '../modules/categories-manager/category-popup/category-popup-routing.module#CategoryPopupModule' },
+
 	{ path: 'formsManager', loadChildren: '../modules/forms-manager/forms-manager-routing.module#FormsManagerRoutingModule' },
 	{ path: 'formPopup', loadChildren: '../modules/forms-manager/form-popup/form-popup-routing.module#FormPopupModule' },
 
-	{ path: 'actionItems', loadChildren: '../modules/action-items/action-items-routing.module#ActionItemsRoutingModule' },
-	{ path: 'purchaseHistory', loadChildren: '../modules/purchase-history/purchase-history-routing.module#PurchaseHistoryRoutingModule' }
+	{ path: 'actionsAndDocuments', loadChildren: '../modules/actions-and-documents/actions-and-documents-routing.module#ActionsAndDocumentsRoutingModule' },
+	{ path: 'actions', loadChildren: '../modules/actions-and-documents/actions/actions-routing.module#ActionsRoutingModule' },
+	{ path: 'documents', loadChildren: '../modules/actions-and-documents/documents/documents-routing.module#DocumentsRoutingModule' },
+
+	{ path: 'purchaseHistoryAndMyList', loadChildren: '../modules/purchase-history-and-my-list/purchase-history-and-my-list-routing.module#PurchaseHistoryAndMyListRoutingModule' },
+	{ path: 'purchaseHistory', loadChildren: '../modules/purchase-history-and-my-list/purchase-history/purchase-history-routing.module#PurchaseHistoryRoutingModule' },
+	{ path: 'myList', loadChildren: '../modules/purchase-history-and-my-list/my-list/my-list-routing.module#MyListRoutingModule' }
 ];
 
 @NgModule({

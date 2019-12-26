@@ -55,13 +55,13 @@ export class LayoutComponent implements OnInit {
 				width: '30%',
 				rows: [{
 					manifest: {
-						path: 'actionItems/index',
+						path: 'actionsAndDocuments/index',
 						config: {
 						}
 					}
 				}, {
 					manifest: {
-						path: 'purchaseHistory/index',
+						path: 'purchaseHistoryAndMyList/index',
 						config: {
 						}
 					}

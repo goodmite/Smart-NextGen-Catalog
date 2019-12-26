@@ -1,0 +1,17 @@
+<div>
+    <div style="width: 100px; height: 100px; background: #d4d4d4; float: left; margin: 5px;
+        text-align: center;">
+        <div>
+            <a (click)="onTabClick('actions/index')">ACTIONS</a> | <a
+                (click)="onTabClick('documents/index')">DOCUMENTS</a>
+        </div>
+        <div>{{manifest.path}}
+            <ng-container #componentContainer></ng-container>
+            <ng-template #componentTemplate let-manifestPath='manifest.manifestPath' let-config='manifest.config'>
+                <smart-outlet [path]="manifest.manifestPath" [childConfig]="manifest.config"
+                    (onInitialize)="onInitialize($event)" (onDeinitialize)="onDeinitialize($event)"
+                    (onActivate)="onActivate($event)"></smart-outlet>
+            </ng-template>
+        </div>
+    </div>
+</div>

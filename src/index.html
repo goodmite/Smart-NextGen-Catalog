@@ -16,7 +16,7 @@
 	<script src="./locale_files/Localization_en-US.js"></script>
 	<script src="mockData.js"></script>
 	<script>
-		var body = { "userName": "chevron.admin@gep.com", "bpc": 70021704, "partnerCode": 0 };
+		var body = { "userName": "chevron.admin@gep.com", "bpc": userInfo.UserBasicDetails.BuyerPartnerCode, "partnerCode": 0 };
 		var xhr = new XMLHttpRequest();
 		xhr.open('POST', 'https://smartdev-sts.gep.com/REST/jwt');
 		xhr.setRequestHeader("Content-Type", "application/json");
