@@ -6,7 +6,7 @@ import { CategoriesManagerService } from './categories-manager.service';
 @Component({
 	selector: 'categories-manager',
 	templateUrl: './categories-manager.component.html',
-	// styleUrls: ['./categories-manager.component.css'],
+	styleUrls: ['./categories-manager.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CategoriesManagerComponent {
@@ -45,6 +45,7 @@ export class CategoriesManagerComponent {
 			manifestPath: this.manifest.path, config: Object.assign(this.manifest.config, {
 				selectedNodes: category ? [category] : [],
 				onSave: (e: any) => {
+					console.log(e);
 					if (index == undefined) {
 						this.categoriesData = this.categoriesData.concat(e.selectedNodes);
 					}

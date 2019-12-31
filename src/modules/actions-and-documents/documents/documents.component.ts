@@ -5,7 +5,7 @@ import { InjectionContext } from 'smart-module-injector';
 @Component({
 	selector: 'documents',
 	templateUrl: './documents.component.html',
-	// styleUrls: ['./documents.component.css'],
+	styleUrls: ['./documents.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DocumentsComponent {

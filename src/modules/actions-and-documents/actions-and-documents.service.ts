@@ -11,13 +11,19 @@ export class ActionsAndDocumentsService {
     }
 
 
-    getData() {
+    getTabsConfig() {
         return [{
-            ID: 1,
-            Name: 'cat 1'
+            title: 'actions',
+            isActive: true,
+            icon: '#icon_ActionPlan',
+            key: 'actions',
+            manifestPath: 'actions/index'
         }, {
-            ID: 2,
-            Name: 'cat 2'
+            title: 'documents',
+            isActive: false,
+            icon: '',
+            key: 'documents',
+            manifestPath: 'documents/index'
         }];
     }
 }

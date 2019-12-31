@@ -11,13 +11,19 @@ export class PurchaseHistoryAndMyListService {
     }
 
 
-    getData() {
+    getTabsConfig() {
         return [{
-            ID: 1,
-            Name: 'cat 1'
+            title: 'Purchase History',
+            isActive: true,
+            icon: '',
+            key: 'purchaseHistory',
+            manifestPath: 'purchaseHistory/index'
         }, {
-            ID: 2,
-            Name: 'cat 2'
+            title: 'My List',
+            isActive: false,
+            icon: '#icon_ActionPlan',
+            key: 'myList',
+            manifestPath: 'myList/index'
         }];
     }
 }

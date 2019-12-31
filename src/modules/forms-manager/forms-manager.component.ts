@@ -1,10 +1,12 @@
 import { ChangeDetectionStrategy, Component, Inject, Input, OnInit, Optional, ViewChild, ViewContainerRef, TemplateRef } from '@angular/core';
 
+import { FormsManagerService } from './forms-manager.service';
+
 
 @Component({
 	selector: 'forms-manager',
 	templateUrl: './forms-manager.component.html',
-	// styleUrls: ['./forms-manager.component.css'],
+	styleUrls: ['./forms-manager.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FormsManagerComponent {
@@ -15,16 +17,17 @@ export class FormsManagerComponent {
 	@ViewChild('componentContainer', { read: ViewContainerRef }) componentContainer: ViewContainerRef;
 	@ViewChild('componentTemplate') componentTemplate: TemplateRef<any>;
 
-	selectedNodes: any;
+
+	formsData: any;
 
 
-	constructor() {
+	constructor(private formsManagerService: FormsManagerService) {
 
 	}
 
 
 	ngOnInit() {
-		console.log('tiles manager ngonit', this.data);
+		this.formsData = this.formsManagerService.getData();
 	}
 
 
@@ -38,13 +41,19 @@ export class FormsManagerComponent {
 	}
 
 
-	manage() {
+	manage(form?: any, index?: number) {
 		this.componentContainer.clear();
 		this.componentContainer.createEmbeddedView(this.componentTemplate, {
 			manifestPath: this.manifest.path, config: Object.assign(this.manifest.config, {
-				selectedNodes: this.selectedNodes,
-				save: (e: any) => {
-					console.log('selected nodes', e);
+				selectedNodes: form ? [form] : [],
+				onSave: (e: any) => {
+					console.log(e);
+					if (index == undefined) {
+						this.formsData = this.formsData.concat(e.selectedNodes);
+					}
+					else {
+						this.formsData[index] = e.selectedNodes[0];
+					}
 				}
 			})
 		});

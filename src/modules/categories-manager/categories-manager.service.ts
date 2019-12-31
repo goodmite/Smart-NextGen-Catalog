@@ -12,13 +12,10 @@ export class CategoriesManagerService {
 
 
     getData() {
-        return [{
-            ID: 1,
-            Name: 'cat 1'
-        }, {
-            ID: 2,
-            Name: 'cat 2'
-        }];
+        return [
+            { ID: 51336250003328, Name: "CATERING AND FACILITY MANAGEMENT" },
+            { ID: 51336250003794, Name: "CHEM,CATALYSTS&GASES" }
+        ];
 
         // var request = {
         //     method: 'POST',

@@ -6,14 +6,18 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+
 // Platform Modules
 import { AppConstants, SelectivePreloadingStrategy, SmartDateService, SmartPlatformServicesModule, SmartNumericService } from 'smart-platform-services';
-import { CoreModule } from '../core';
-import { SharedTranslateModule } from '../shared';
-import { AppComponent, appRoute, HeaderContComponent, LayoutComponent, WrapperComponent } from './';
-import { LayoutService } from './layout/layout.service';
 import { SmartInjectorModule } from 'smart-module-injector';
 import { SmartLayoutManagerModule } from 'smart-layout-manager';
+import { SmartTabsModule } from 'smart-tabs';
+import { SmartNativeScrollModule } from 'smart-native-scroll';
+
+import { AppComponent, appRoute, HeaderContComponent, LayoutComponent, WrapperComponent } from './';
+import { LayoutService } from './layout/layout.service';
+import { CoreModule } from '../core';
+import { SharedTranslateModule } from '../shared';
 
 //declare var UserCountryCultureInfo: any;
 declare var userInfo: any;
@@ -47,7 +51,9 @@ declare var Resources: any;
       preloadingStrategy: SelectivePreloadingStrategy
     }),
     SmartInjectorModule,
-    SmartLayoutManagerModule
+    SmartLayoutManagerModule,
+    SmartTabsModule,
+    SmartNativeScrollModule
   ],
   providers: [
     DatePipe,

@@ -1,18 +1,50 @@
-<div>
-    <div *ngFor="let card of data; trackBy: trackByIndex;" style="width: 100px; height: 100px; background: #d4d4d4; float: left; margin: 5px;
-        text-align: center;">
-        {{card.name}} => {{card.description}}
-    </div>
-    <div style="width: 100px; height: 100px; background: #d6d6d6; float: left; margin: 5px;
-    text-align: center;" (click)="manage()">
-        ADD NEW
-    </div>
+<div class="column-layout paddingTop15" style="margin-top: -12px;">
+    <div class="row">
+        <div class="col s12">
+            <div class="title"><b>Forms</b>
+                <!--<a class="right">View All</a>-->
+            </div>
+        </div>
 
-    <div>
-        <ng-container #componentContainer></ng-container>
-        <ng-template #componentTemplate let-manifestPath='manifest.path' let-config='manifest.config'>
-            <smart-outlet [path]="manifest.path" [childConfig]="manifest.config" (onInitialize)="onInitialize($event)"
-                (onDeinitialize)="onDeinitialize($event)" (onActivate)="onActivate($event)"></smart-outlet>
-        </ng-template>
+        <div class="col s12 l3 m3 marginTop10" *ngFor="let card of formsData">
+            <div class="card">
+                <div class="card-head">
+                    <img src="" alt="image go here">
+                </div>
+                <div class="card-body">
+                    <div class="card-title truncate">
+                        {{card.Name}}
+                    </div>
+                    <div class="card-para">
+                        Create SRF for {{card.Name}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col s12 l3 m3 marginTop10">
+            <div class="card" (click)="manage()">
+                <div class="add-new">
+                    <i class="icon icon--xLarge">
+                        <svg>
+                            <use xlink:href="#icon_CirclePlus" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            </use>
+                        </svg>
+                    </i>
+                    <span>
+                        Click here to add Form
+                    </span>
+                </div>
+            </div>
+            <div>
+                <ng-container #componentContainer></ng-container>
+                <ng-template #componentTemplate let-manifestPath='manifest.path' let-config='manifest.config'>
+                    <smart-outlet [path]="manifest.path" [childConfig]="manifest.config"
+                        (onInitialize)="onInitialize($event)" (onDeinitialize)="onDeinitialize($event)"
+                        (onActivate)="onActivate($event)"></smart-outlet>
+                </ng-template>
+            </div>
+        </div>
     </div>
 </div>

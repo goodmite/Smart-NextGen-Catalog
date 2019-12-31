@@ -1,0 +1,192 @@
+.task-frame {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.extra-nav-wrap {
+  height: 54px;
+}
+
+.extra-nav-title {
+  min-width: 300px;
+}
+
+
+.column-layout{
+  background:#e8e8e8;
+  padding-bottom:5px;
+  box-shadow:0px 2px 5px rgba(0,0,0,.3);
+}
+
+
+.column-left-layout{
+  @extend .column-layout;
+  background:#fff;
+}
+
+.card{
+  height:250px;
+  background:#fff;
+  box-shadow:1px 1px 1px #ccc;
+}
+
+.add-new{
+  padding-top: 75px; 
+   .icon, span {
+    display: block;
+    text-align: center;
+    fill: #ccc;
+    color: #ccc; }
+  }
+
+ ::ng-deep .tabparent-container{
+  box-shadow:none !important;
+   &.col{
+     padding:0px;
+   }
+
+   .tab{
+     text-align: center;
+     padding:10px;
+     width:50%;
+     box-sizing: border-box;
+     border-top:2px solid transparent;
+     &:not(:first-child){
+      border-left:1px solid #ccc;
+     }
+     &.active{
+       border-top:2px solid blue;
+      }
+     &:not(.active){
+      border-bottom:1px solid #ccc;
+     }
+   }
+  }
+
+  ::ng-deep smart-tabs{
+    .row{
+      margin-bottom:0px;
+    }
+  }
+
+  .doc-info{
+    span{
+      display:block;
+    }
+  }
+  
+  .docmemnt{
+    margin-top:15px;
+    &:not(:first-child){
+      border-top:1px solid #ccc;
+      padding-top:15px;
+    }
+  .doc-status{
+    border-radius: 3px;
+    color:#fff;
+    padding: 0 5px;
+  }
+  .approval-pending{
+    background:#f9ab3e;
+  }
+  .draft{
+    background:#ccc;
+  }
+  .doc-price{
+    color:#56dcd3;
+  }
+}
+
+
+
+
+
+
+
+@import "~smart-assets/sass/variables";
+
+.tabparent-container {
+    box-shadow: 0 2px 5px 1px rgba($defaultBlack, 0.2);
+    border-bottom: none;
+    .tabparent {
+      display: flex;
+    }
+    .left-arrow, .right-arrow{
+      display: flex;
+      // border: 1px solid red;
+      i svg{
+        height: 48px;
+      }
+    }
+    .tabs-wrapper {
+      width: 100%;
+      overflow: hidden;
+      .tabs {
+        overflow: hidden;
+        .tab{
+          .tab-title {
+            font-weight: 700;
+            // border: 1px solid black;
+            padding: 15px 20px;
+            text-align: center;
+            display: block;
+            height:100%;
+            width:100%;
+            box-sizing: border-box;
+            color:lighten($defaultBlack, 45.88);
+            -webkit-transition: color 0.28s ease;
+            -moz-transition: color 0.28s ease;
+             -o-transition: color 0.28s ease;
+            -ms-transition: color 0.28s ease;
+             transition: color 0.28s ease;
+          }
+          &:hover{
+            .tab-title{
+              color:$link;
+              border-bottom: none;
+            }
+          }
+          &.active {
+            .tab-title{
+              color:$link;
+              border-bottom: 2px solid $link;
+            }
+          }
+        }
+    
+      }
+    }
+}
+
+.isHidden {
+  display: none !important;
+}
+
+.tabs-wrapper-vertical {
+  overflow: unset !important;
+}
+
+.tabs-vertical {
+  flex-direction: column;
+  height: 100% !important;
+  margin: 1px;
+  padding: 0;
+  overflow: unset !important;
+  .tab {
+    border-bottom: 1px solid $cellPinnedSelected !important;
+   &.active {
+     .tab-title {
+       border-left: 2px solid $link;
+       background: #f5f5f5;
+       border-bottom: 1px solid $cellPinnedSelected !important;
+      }
+    }
+  }
+}
+
+.no-padding {
+  padding: 0;
+  height: 100%;
+  //for default scroll
+  // overflow-y: auto;
+}

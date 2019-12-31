@@ -5,7 +5,7 @@ import { InjectionContext } from 'smart-module-injector';
 @Component({
 	selector: 'pursase-history',
 	templateUrl: './purchase-history.component.html',
-	// styleUrls: ['./purchase-history.component.css'],
+	styleUrls: ['./purchase-history.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PurchaseHistoryComponent {

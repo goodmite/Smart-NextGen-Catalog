@@ -5,7 +5,7 @@ import { InjectionContext } from 'smart-module-injector';
 @Component({
 	selector: 'my-list',
 	templateUrl: './my-list.component.html',
-	// styleUrls: ['./my-list.component.css'],
+	styleUrls: ['./my-list.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MyListComponent {

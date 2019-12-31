@@ -9,10 +9,58 @@ import { LayoutService } from "./layout.service";
 @Component({
 	selector: 'layout-page',
 	templateUrl: './layout.component.html',
-	// styleUrls: ['./layout.component.css'],
+	styleUrls: ['./layout.component.scss'],
 	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LayoutComponent implements OnInit {
+	scrollConfig;
+	categoriesData = [
+		{
+			ID: 1,
+			Name: 'cat 1'
+		},
+		{
+			ID: 2,
+			Name: 'cat 2'
+		}
+	];
+
+	formsData = [
+		{
+			ID: 1,
+			Name: 'cat 1'
+		},
+		{
+			ID: 2,
+			Name: 'cat 2'
+		},
+		{
+			ID: 3,
+			Name: 'cat 3'
+		}
+	];
+
+	docmemnt = [
+		{
+			docID: "1",
+			docTitle: "Req #SW-2020",
+			docStatus: "Approval Pending",
+			docStatusColor: "approval-pending",
+			docProd: "New apple Mac Book",
+			docProdPrice: "$254.4",
+			docBy: "Jessica Miller"
+		},
+		{
+			docID: "2",
+			docTitle: "Req #SW-2022",
+			docStatus: "Draft",
+			docStatusColor: "draft",
+			docProd: "Google Pixel Book",
+			docProdPrice: "$4500.00",
+			docBy: "Self"
+		}
+	]
+
 	@Input() id;
 
 	layoutManagerConfig: ISmartLayoutManager;
@@ -20,7 +68,9 @@ export class LayoutComponent implements OnInit {
 
 
 	constructor() {
-
+		this.scrollConfig = {
+			height: "200px"
+		}
 	}
 
 	ngOnInit() {
@@ -30,6 +80,8 @@ export class LayoutComponent implements OnInit {
 		this.layoutManagerConfig = {
 			columns: [{
 				width: '70%',
+				cssClass: 'col s12 l9 m9',
+				// borderClass: '',
 				rows: [{
 					manifest: {
 						path: 'categoriesManager/index',
@@ -52,6 +104,7 @@ export class LayoutComponent implements OnInit {
 					}
 				}]
 			}, {
+				cssClass: 'col s12 l3 m3',
 				width: '30%',
 				rows: [{
 					manifest: {
