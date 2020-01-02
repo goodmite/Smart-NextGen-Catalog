@@ -4,7 +4,8 @@ import { FormsModule } from "@angular/forms";
 
 import { SmartInjectorModule, IManifestCollection } from 'smart-module-injector';
 
-import { DocumentsComponent } from "./documents.component";
+import { DocumentsComponent } from './documents.component';
+import { DocumentItemRendererComponent } from './document-item-renderer/document-item-renderer.component';
 import { DocumentsService } from './documents.service';
 
 
@@ -18,7 +19,7 @@ const documentsManifest: IManifestCollection = [{
     CommonModule,
     SmartInjectorModule.forChild(documentsManifest)
   ],
-  declarations: [DocumentsComponent],
+  declarations: [DocumentsComponent, DocumentItemRendererComponent],
   providers: [DocumentsService],
   entryComponents: []
 })

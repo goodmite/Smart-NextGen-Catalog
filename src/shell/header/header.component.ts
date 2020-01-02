@@ -7,29 +7,35 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 
 export class HeaderContComponent implements AfterViewInit {
+  isAvtar: boolean = false;
 
   menuList = [{
     "id": 1,
-    "name": "spend"
+    "name": "spend",
+    "isActive": false
   },
   {
     "id": 2,
-    "name": "Sourcing"
+    "name": "Sourcing",
+    "isActive": false
   },
   {
     "id": 3,
-    "name": "Purchasing"
+    "name": "Purchasing",
+    "isActive": true
   }, {
     "id": 4,
-    "name": "Invoice"
+    "name": "Invoice",
+    "isActive": false
   }, {
     "id": 5,
-    "name": "Supplier"
+    "name": "Supplier",
+    "isActive": false
   }, {
     "id": 6,
-    "name": "contract"
-  }
-  ]
+    "name": "contract",
+    "isActive": false
+  }]
 
   notifyList = [{
     "id": 1,

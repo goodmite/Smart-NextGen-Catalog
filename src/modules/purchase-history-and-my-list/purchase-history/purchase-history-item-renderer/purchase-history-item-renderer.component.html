@@ -1,0 +1,9 @@
+<div [ngClass]="{'document': true, 'not-last': !isLast}">
+    <div class="doc-description">
+        <a class="doc_title">{{item.docName}}</a>
+        <span class="right grey">{{item.docCreatedOn}}</span>
+    </div>
+    <div class="doc-info">
+        <span class="doc-status {{item.docStatusKey}}">{{item.docStatus}}</span>
+    </div>
+</div>

@@ -1,16 +1,4 @@
-.task-frame {
-  height: 100%;
-  padding-bottom: 30px;
-}
-
-.extra-nav-wrap {
-  height: 54px;
-}
-
-.extra-nav-title {
-  min-width: 300px;
-}
-
+@import "~smart-assets/sass/variables";
 
 .column-layout{
   background:#e8e8e8;
@@ -24,20 +12,6 @@
   background:#fff;
 }
 
-.card{
-  height:250px;
-  background:#fff;
-  box-shadow:1px 1px 1px #ccc;
-}
-
-.add-new{
-  padding-top: 75px; 
-   .icon, span {
-    display: block;
-    text-align: center;
-    fill: #ccc;
-    color: #ccc; }
-  }
 
  ::ng-deep .tabparent-container{
   box-shadow:none !important;
@@ -69,41 +43,6 @@
     }
   }
 
-  .doc-info{
-    span{
-      display:block;
-    }
-  }
-  
-  .docmemnt{
-    margin-top:15px;
-    &:not(:first-child){
-      border-top:1px solid #ccc;
-      padding-top:15px;
-    }
-  .doc-status{
-    border-radius: 3px;
-    color:#fff;
-    padding: 0 5px;
-  }
-  .approval-pending{
-    background:#f9ab3e;
-  }
-  .draft{
-    background:#ccc;
-  }
-  .doc-price{
-    color:#56dcd3;
-  }
-}
-
-
-
-
-
-
-
-@import "~smart-assets/sass/variables";
 
 .tabparent-container {
     box-shadow: 0 2px 5px 1px rgba($defaultBlack, 0.2);

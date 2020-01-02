@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, Inject, Input, OnInit, Optional, ViewChild, ViewContainerRef, TemplateRef } from '@angular/core';
 
+import { AppConstants } from 'smart-platform-services';
+
 import { CategoriesManagerService } from './categories-manager.service';
 
 
@@ -19,7 +21,7 @@ export class CategoriesManagerComponent {
 	categoriesData: any;
 
 
-	constructor(private categoriesManager: CategoriesManagerService) {
+	constructor(private appConstants: AppConstants, private categoriesManager: CategoriesManagerService) {
 
 	}
 
@@ -36,6 +38,21 @@ export class CategoriesManagerComponent {
 
 	trackByIndex(index: number) {
 		return index;
+	}
+
+
+	onInitialize() {
+
+	}
+
+
+	onDeinitialize() {
+
+	}
+
+
+	onActivate() {
+
 	}
 
 
@@ -58,17 +75,8 @@ export class CategoriesManagerComponent {
 	}
 
 
-	onInitialize() {
-
-	}
-
-
-	onDeinitialize() {
-
-	}
-
-
-	onActivate() {
-
+	//	redirect to catalog landing
+	browseCatalog() {
+		window.open(this.appConstants.userPreferences.URLs.AppURL + 'Catalog/PageLoad/Index?oloc=108&c=NzAwMjE3MDQ1#/catalog/search/0//Relevance/1/e30=/24/', '_blank');
 	}
 }

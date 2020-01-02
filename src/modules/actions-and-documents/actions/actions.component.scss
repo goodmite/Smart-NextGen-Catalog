@@ -1,81 +1,18 @@
-.task-frame {
-  height: 100%;
-  padding-bottom: 30px;
-}
-
-.extra-nav-wrap {
-  height: 54px;
-}
-
-.extra-nav-title {
-  min-width: 300px;
-}
-
-
-.column-layout{
-  background:#e8e8e8;
-  padding-bottom:5px;
-  box-shadow:0px 2px 5px rgba(0,0,0,.3);
-}
-
-
-.column-left-layout{
-  @extend .column-layout;
-  background:#fff;
-}
-
-.card{
-  height:250px;
-  background:#fff;
-  box-shadow:1px 1px 1px #ccc;
-}
-
-.add-new{
-  padding-top: 75px; 
-   .icon, span {
-    display: block;
-    text-align: center;
-    fill: #ccc;
-    color: #ccc; }
-  }
-
- ::ng-deep .tabparent-container{
-  box-shadow:none !important;
-   &.col{
-     padding:0px;
-   }
-
-   .tab{
-     text-align: center;
-     padding:10px;
-     width:50%;
-     box-sizing: border-box;
-     border-top:2px solid transparent;
-     &:not(:first-child){
-      border-left:1px solid #ccc;
-     }
-     &.active{
-       border-top:2px solid blue;
-      }
-     &:not(.active){
-      border-bottom:1px solid #ccc;
-     }
-   }
-  }
-
-  ::ng-deep smart-tabs{
-    .row{
-      margin-bottom:0px;
-    }
-  }
-
   .doc-info{
     span{
       display:block;
     }
+    .grey{
+      color: #999;
+    }
   }
   
-  .docmemnt{
+  .not-last {
+    border-bottom:1px solid #ccc;
+    padding-bottom:15px;
+  }
+  
+  .document{
     margin-top:15px;
     &:not(:first-child){
       border-top:1px solid #ccc;
@@ -86,11 +23,13 @@
     color:#fff;
     padding: 0 5px;
   }
-  .approval-pending{
-    background:#f9ab3e;
+  .approvalPending{
+    // background:#f9ab3e;
+    background: #5A68C8;
   }
   .draft{
-    background:#ccc;
+    // background:#ccc; 
+    background: #E53935;
   }
   .doc-price{
     color:#56dcd3;

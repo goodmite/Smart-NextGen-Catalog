@@ -4,7 +4,8 @@ import { FormsModule } from "@angular/forms";
 
 import { SmartInjectorModule, IManifestCollection } from 'smart-module-injector';
 
-import { PurchaseHistoryComponent } from "./purchase-history.component";
+import { PurchaseHistoryComponent } from './purchase-history.component';
+import { PurchaseHistoryItemRendererComponent } from './purchase-history-item-renderer/purchase-history-item-renderer.component';
 import { PurchaseHistoryService } from './purchase-history.service';
 
 
@@ -18,7 +19,7 @@ const purchaseHistoryManifest: IManifestCollection = [{
     CommonModule,
     SmartInjectorModule.forChild(purchaseHistoryManifest)
   ],
-  declarations: [PurchaseHistoryComponent],
+  declarations: [PurchaseHistoryComponent, PurchaseHistoryItemRendererComponent],
   providers: [PurchaseHistoryService],
   entryComponents: []
 })

@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component, Inject, Input, OnInit, Optional } from '@angular/core';
-import { InjectionContext } from 'smart-module-injector';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+
+import { AppConstants } from 'smart-platform-services';
 
 
 @Component({
@@ -11,15 +12,41 @@ import { InjectionContext } from 'smart-module-injector';
 export class PurchaseHistoryComponent {
 	@Input() id;
 
-	constructor() {
+	data: any;
+
+
+	constructor(private appConstants: AppConstants) {
+		this.data = [];
 	}
 
-
 	ngOnInit() {
-		console.log('purchase history', this.id);
+		this.getData();
 	}
 
 
 	ngOnDestroy() {
+	}
+
+
+	getData() {
+		let tmpData = [];
+		for (let i = 0; i < 10; i++) {
+			tmpData.push({
+				docName: 'Req #SW-1234-5600056' + (i + 1),
+				docStatus: i == 1 || i == 2 ? 'Draft' : 'Approval Pending',
+				docStatusKey: i == 1 || i == 2 ? 'draft' : 'approvalPending',
+				docDesc: i == 1 || i == 2 ? 'New Apple MacBook' : 'Lenovo Laptop',
+				docPrice: i == 1 || i == 2 ? '$2500' : '$3000',
+				docAuthor: i == 1 || i == 2 ? 'Rahul Patel' : 'Sushant Ahirrao',
+				docCreatedOn: i == 1 || i == 3 ? '2 days ago' : 'Today'
+			});
+		}
+		this.data = tmpData;
+	}
+
+
+	//	Redirect user to manage tasks page
+	viewAll() {
+		window.open(this.appConstants.userPreferences.URLs.AppURL + 'Smart?oloc=200&c=NzAwMjE3MDQ1#/workQueue', '_blank');
 	}
 }

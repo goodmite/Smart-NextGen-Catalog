@@ -4,7 +4,8 @@ import { FormsModule } from "@angular/forms";
 
 import { SmartInjectorModule, IManifestCollection } from 'smart-module-injector';
 
-import { ActionsComponent } from "./actions.component";
+import { ActionsComponent } from './actions.component';
+import { ActionItemRendererComponent } from './action-item-renderer/action-item-renderer.component';
 import { ActionsService } from './actions.service';
 
 
@@ -18,7 +19,7 @@ const actionsManifest: IManifestCollection = [{
     CommonModule,
     SmartInjectorModule.forChild(actionsManifest)
   ],
-  declarations: [ActionsComponent],
+  declarations: [ActionsComponent, ActionItemRendererComponent],
   providers: [ActionsService],
   entryComponents: []
 })
